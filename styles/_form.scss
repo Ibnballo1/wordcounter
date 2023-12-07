@@ -1,0 +1,14 @@
+form {
+    @include flex(flex, column, flex-start, flex-start);
+    margin-bottom: 1rem;
+
+    label {
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+
+    textarea {
+        border-radius: 12px;
+        padding: 1rem;
+    }
+}

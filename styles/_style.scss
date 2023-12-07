@@ -1,0 +1,6 @@
+@import './mixins';
+
+main {
+    @include flex(flex, column, center, center);
+    min-height: 100vh;
+}
