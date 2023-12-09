@@ -14,12 +14,15 @@
             </header>
             <form action="#">
                 <label for="t-area">Enter some text below:</label>
-                <textarea name="msg" id="t-area" cols="100" rows="15"></textarea>
+                <textarea name="msg" id="t-area" cols="80" rows="15"></textarea>
             </form>
             <div class="output" id="output">
-                <p>You've written 0 words and 0 characters.</p>
+                <p>
+                    You've written <span class="word texts" id="word">0 words</span> and <span class="char texts" id="char">0 characters</span>.
+                </p>
             </div>
         </section>
     </main>
+    <script src="./js/app.js"></script>
 </body>
 </html>
